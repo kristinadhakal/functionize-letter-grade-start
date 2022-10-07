@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Letter Grades</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Determine Letter Grades</h1>
+    <hr />
+
+    <p>
+      Enter percentage grades for your core subjects and then click the
+      'Determine Letter Grades' button to convert percentage grades to letter
+      grades.
+    </p>
+
+    <hr />
+
+    <h3>English</h3>
+    <p>
+      Percentage Grade: <input type="number" id="eng-percent" /><br />
+      Letter Grade: <span id="eng-letter">-----</span>
+    </p>
+
+    <h3>Social Studies</h3>
+    <p>
+      Percentage Grade: <input type="number" id="soc-percent" /><br />
+      Letter Grade: <span id="soc-letter">-----</span>
+    </p>
+
+    <h3>Mathematics</h3>
+    <p>
+      Percentage Grade: <input type="number" id="math-percent" /><br />
+      Letter Grade: <span id="math-letter">-----</span>
+    </p>
+
+    <h3>Science</h3>
+    <p>
+      Percentage Grade: <input type="number" id="sci-percent" /><br />
+      Letter Grade: <span id="sci-letter">-----</span>
+    </p>
+    <hr />
+
+    <p>
+      <button id="btn">Determine Letter Grades</button>
+    </p>
+  </body>
+</html>
